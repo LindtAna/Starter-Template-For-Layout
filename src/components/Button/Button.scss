@@ -1,0 +1,15 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.3em;
+  padding: 8px 12px;
+  color: var(--colour-black);
+  background-color: var(--colour-white);
+  border: var(--border);
+  border-radius: var(--border-radius-m);
+
+  @include hover {
+    color: var(--colour-white);
+    background-color: var(--colour-accent);
+  }
+}
