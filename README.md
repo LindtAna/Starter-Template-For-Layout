@@ -131,7 +131,6 @@ Seiten-Metadaten – Variable metadata in src/pages/**.jsx https://minista.qrano
     In diesem Template wurde die eingebaute <Icon> noch einmal in src/components/Icon.jsx umwickelt.
     Sie leitet automatisch `fill` und `stroke` weiter und nutzt `currentColor`, damit man die Icon-Farbe bequem per CSS steuern kann.
 
-
 # Für die TypeScript-Version: `npm create friendly-frontend@latest -- --ts`
 
 
